@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass {
 
 	public String URL="https://test.eshipper.com/login.jsp";
+	public String QuoteURL="https://test.eshipper.com/OrderManager.do?method=new_quote";
 	public String username="rahul_test";
 	public String password="admint7102";
 	public static WebDriver driver;

@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.eShipperV1.testCases.LoginTestCase">
+      <class name="com.eShipperV1.testCases.SaveQuoteTestCase">
         <methods>
-          <include name="loginTest"/>
-          <include name="exit"/>
+          <include name="saveQuote"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.eShipperV1.testCases.LoginTestCase -->
+      </class> <!-- com.eShipperV1.testCases.SaveQuoteTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
